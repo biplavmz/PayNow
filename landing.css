@@ -1,0 +1,54 @@
+.brand{
+     font-size: 30px; 
+    margin-right: 100px; 
+    text-decoration: none;
+}
+.nav-link{
+    color: rgb(221, 220, 218);
+     font-size: 20px;
+      margin-right: 40px;
+}
+
+
+
+.landing{
+    height: 100vh;
+    background-color: rgb(44, 41, 41);
+}
+.navbar{
+    height: 110px;
+}
+
+hr{
+   background-color: rgb(71, 67, 67);
+}
+body{
+    text-decoration: none;
+    background-color: rgb(44, 41, 41);
+}
+a:link{
+    text-decoration: none;
+}
+@media (max-width:992px){
+    .navbar-nav{
+        text-align:center;
+        background-color: rgb(44, 41, 41);
+        display: block;
+        font-size: 40px;
+    }
+   
+    form{
+        justify-content: center;
+    }
+    .row{
+
+      margin-top: 150px;
+
+    }
+}
+
+@media (max-width:1200px){
+    .brand{
+      margin-right: 20px;   
+    }
+}
